@@ -13,6 +13,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
 import HomeIcon from '@material-ui/icons/Home';
 import DescriptionIcon from '@material-ui/icons/Description';
+import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import Link from 'next/link';
 import Hidden from '@material-ui/core/Hidden';
 import PropTypes from 'prop-types';
@@ -72,6 +73,12 @@ export default function Layout({ children }) {
           <ListItem button>
             <ListItemIcon><DescriptionIcon /></ListItemIcon>
             <ListItemText primary="Resume" />
+          </ListItem>
+        </Link>
+        <Link href="/books">
+          <ListItem button>
+            <ListItemIcon><LocalLibraryIcon /></ListItemIcon>
+            <ListItemText primary="Books" />
           </ListItem>
         </Link>
       </List>
