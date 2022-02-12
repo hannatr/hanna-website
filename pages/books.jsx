@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import { withStyles } from '@mui/styles';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
+import Link from '@mui/material/Link';
 import Layout from '../components/layout';
 import data from '../shared/clips.json';
 
@@ -36,12 +37,14 @@ class Books extends React.Component {
       <Layout>
         <Container className={classes.content}>
           <h1>Books</h1>
+          <p>Check out my <Link href='https://www.goodreads.com/hannatr'>Goodeads profile</Link> for my opinion on books and what I am
+           currently reading. Here are some of my favorite book quotes!</p>
           <Grid container spacing={3}>
-            <Grid item xs={2}>
+            {/* <Grid item xs={2}>
               <Box className={classes.profile}>
                 <Image src={this.bookImageTemp} width={128} height={193} layout="intrinsic" />
               </Box>
-            </Grid>
+            </Grid> */}
             <Grid item xs={10}>
               <h2>{ quote.title }</h2>
               <p>
@@ -69,6 +72,5 @@ class Books extends React.Component {
 export default withStyles(styles)(Books);
 
 Books.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
   classes: PropTypes.object.isRequired,
 };

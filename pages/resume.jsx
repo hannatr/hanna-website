@@ -35,7 +35,7 @@ export default function Resume() {
           <Typography className={classes.resumeBold}>
             Assured Information Security (AIS)
           </Typography>
-          <Typography>Rome, NY, Rochester, NY (June 2010 - Present)</Typography>
+          <Typography>Rome, NY, Rochester, NY (June 2010 - January 2022)</Typography>
           <ul>
             <li>
               Software Engineer and Technical Lead for efforts to develop cyber capabilities in
@@ -83,9 +83,9 @@ export default function Resume() {
           <ul>
             <li>Software Development</li>
             <ul>
-              <li>Proficient – Python, Bash, Docker, Redis, RethinkDB, Phabricator, Git</li>
+              <li>Proficient - Python, Bash, Docker, Redis, RethinkDB, Phabricator, Git</li>
               <li>
-                Experience – JavaScript, HTML/CSS, React, C, GraphQL, MongoDB, SQL, Gitlab CI,
+                Experience - JavaScript, HTML/CSS, React, C, GraphQL, MongoDB, SQL, Gitlab CI,
                 Networking (TCP, UDP, IP, Socket, Wireshark), Cross Domain Solutions
               </li>
             </ul>
@@ -97,38 +97,38 @@ export default function Resume() {
               </li>
               <li>Certified ScrumMaster, Scrum Alliance</li>
               <li>
-                Guided development of improving team’s automated testing and continuous
+                Guided development of improving team's automated testing and continuous
                 integration capabilities (formatters, linters, static analysis, automated
                 releases, virtual environments)
               </li>
             </ul>
             <li>
-              Engineering Management – Promote staff development through training
+              Engineering Management - Promote staff development through training
               initiatives, morale events, and performance reviews
             </li>
             <li>
-              Technical Writing – Ability to efficiently produce concise, organized proposals,
+              Technical Writing - Ability to efficiently produce concise, organized proposals,
               white papers, reports, and software documentation/guides. Worked on custom Pandoc
               scripts for generating PDF/HTML documentation in Markdown. Completed DoD Elevated
               Level of Assurance (ELA) Level II Training. Created and presented Technical
               Writing Lunch and Learn to AIS on Technical Writing.
             </li>
             <li>
-              Public Speaking – Perform critical demonstrations across the country for decision
+              Public Speaking - Perform critical demonstrations across the country for decision
               making parties
             </li>
           </ul>
           <Typography className={classes.resumeBold}>EDUCATION</Typography>
           <hr />
-          <p>Drexel University – M.S. Computer Science – December 2013</p>
+          <p>Drexel University - M.S. Computer Science - December 2013</p>
           <p>
-            Clarkson University – B.S. Computer Science, Mathematics; Minor: Business – May 2010
+            Clarkson University - B.S. Computer Science, Mathematics; Minor: Business - May 2010
           </p>
           <Typography className={classes.resumeBold}>OTHER EXPERIENCE</Typography>
           <hr />
-          <p>Clarkson Writing Center – Potsdam, NY – August 2007 – May 2010</p>
+          <p>Clarkson Writing Center - Potsdam, NY - August 2007 - May 2010</p>
           <ul><li>Tutor that helped students with writing assignments</li></ul>
-          <p>Eastman Kodak Company – Rochester, NY – May 2007 – August 2008</p>
+          <p>Eastman Kodak Company - Rochester, NY - May 2007 - August 2008</p>
           <ul><li>Software Development and QA Intern on the Kodak Picture Kiosk Team</li></ul>
           <Typography className={classes.resumeBold}>INTERESTS</Typography>
           <hr />
