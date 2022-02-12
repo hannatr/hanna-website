@@ -97,7 +97,7 @@ export default function Resume() {
               </li>
               <li>Certified ScrumMaster, Scrum Alliance</li>
               <li>
-                Guided development of improving team's automated testing and continuous
+                Guided development of improving team&apos;s automated testing and continuous
                 integration capabilities (formatters, linters, static analysis, automated
                 releases, virtual environments)
               </li>
