@@ -43,11 +43,11 @@ export default function Resume() {
             </li>
             <li>
               Developed command and control software with APIs and SDK to integrate cyber
-              capabilities using Python, Redis, MongoDB, and RethinkDB.
+              capabilities using Python, Redis, MongoDB, and RethinkDB
             </li>
             <li>
               Integrated capabilities onto operation cyber infrastructures using Docker, Bash,
-              and Python.
+              and Python
             </li>
             <li>
               Developed full-stack web user interfaces using React, JavaScript, CSS, GraphQL,
@@ -65,7 +65,7 @@ export default function Resume() {
               Designed and performed demonstrations of systems for customers and visitors
             </li>
             <li>
-              Design and oversee test procedures to ensure quality software is delivered to
+              Designed and oversaw test procedures to ensure quality software was delivered to
               customers
             </li>
             <li>
@@ -85,8 +85,9 @@ export default function Resume() {
             <ul>
               <li>Proficient - Python, Bash, Docker, Redis, RethinkDB, Phabricator, Git</li>
               <li>
-                Experience - JavaScript, HTML/CSS, React, C, GraphQL, MongoDB, SQL, Gitlab CI,
-                Networking (TCP, UDP, IP, Socket, Wireshark), Cross Domain Solutions
+                Experience - JavaScript, HTML/CSS, React, C, Java, GraphQL, MongoDB, SQL, Gitlab CI,
+                Networking (TCP, UDP, IP, Socket, Wireshark), Cross Domain Solutions, Machine
+                Learning
               </li>
             </ul>
             <li>Software Engineering Process</li>
@@ -102,21 +103,35 @@ export default function Resume() {
                 releases, virtual environments)
               </li>
             </ul>
-            <li>
-              Engineering Management - Promote staff development through training
-              initiatives, morale events, and performance reviews
-            </li>
-            <li>
-              Technical Writing - Ability to efficiently produce concise, organized proposals,
-              white papers, reports, and software documentation/guides. Worked on custom Pandoc
-              scripts for generating PDF/HTML documentation in Markdown. Completed DoD Elevated
-              Level of Assurance (ELA) Level II Training. Created and presented Technical
-              Writing Lunch and Learn to AIS on Technical Writing.
-            </li>
-            <li>
-              Public Speaking - Perform critical demonstrations across the country for decision
-              making parties
-            </li>
+            <li>Engineering Management</li>
+            <ul>
+              <li>
+                Promote staff development through training initiatives, morale events, and
+                performance reviews
+              </li>
+            </ul>
+            <li>Technical Writing</li>
+            <ul>
+              <li>
+                Ability to efficiently produce concise, organized proposals, white papers,
+                reports, and software documentation/guides
+              </li>
+              <li>
+                Worked on custom Pandoc scripts for generating PDF/HTML documentation in Markdown
+              </li>
+              <li>
+                Completed DoD Elevated Level of Assurance (ELA) Level II Training
+              </li>
+              <li>
+                Created and presented Technical Writing Lunch and Learn to AIS on Technical Writing
+              </li>
+            </ul>
+            <li>Public Speaking</li>
+            <ul>
+              <li>
+                Perform critical demonstrations across the country for decision making parties
+              </li>
+            </ul>
           </ul>
           <Typography className={classes.resumeBold}>EDUCATION</Typography>
           <hr />
